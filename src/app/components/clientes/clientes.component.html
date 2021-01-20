@@ -13,7 +13,7 @@
             No existen clientes
         </div>
         <table class="table table-bordered table-hover" *ngIf="clientes?.length>0">
-            <thead>
+            <thead class="thead-dark">
                 <tr>
                     <th *ngIf='authService.hasRole("ROLE_ADMIN")'>#</th>
                     <th>nombre</th>
